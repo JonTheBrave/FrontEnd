@@ -1,0 +1,75 @@
+/* ESTILOS GENERALES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    align-items: center;
+}
+
+.nav-conteiner {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+
+
+}
+
+.nav-header {
+    display: flex;
+
+}
+
+nav .lista-nav-header li {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+
+
+.lista-nav-header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.main-box {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.button-conteiner {
+    display: inline-block;
+}
+
+.getstarted {
+    background-color: #8B48BF;
+    padding: 10px;
+    height: 44;
+    width: 134px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 58px;
+}
